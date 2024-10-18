@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Virtual Reality in Planning",
+        "description": [
+            "A student research project at Cal Poly that explored how VR could be used in the planning process. Working with the city of GilRoy they developed four plans for commerical spaces. The scenarios they developed could be compared on VR headsets.",
+            "They used a number of different software applications including SketchUp,  City Engine, ArcGIS, Spatial and vSpatial "
+        ],
+        "image": "images/VRHeadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Research 2021 U.S. Calpoly",
+        "url": "https://planning.calpoly.edu/virtual-reality-planning"
+    },
+    {
+        "title": "An augmented reality study for public participation in urban planning",
+        "description": [
+            "Research that looks at how useful AR is for public particpation"
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "AR Research 2022 Switzerland",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/17489725.2022.2086309"
+    },
+    {
+        "title": "Newquay Futures",
+        "description": [
+            "A virtual bike ride around Newquay looking at possible future developments.",
+            "The council working with local organisations created the VR experience through PropTech government funding. People can take a virtual tour of the town inside a VR headset, seeing proposed developments. They can then give comments"
+        ],
+        "image": "images/VRHeadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2022 UK Newquay Futures",
+        "url": "https://www.bbc.co.uk/news/uk-england-cornwall-63708825"
+    },
+    {
+        "title": "Mid Cornwall Metro: Residents View Future Transport Links in VR",
+        "description": [
+            "Community engagement using VR allowed residents to experience the proposed Mid Cornwall Metro route from a unique perspective—through a virtual hot air balloon ride. This project, funded by the government's Levelling Up Fund, was created by Digital Urban, enabling residents to virtually fly over the metro route, from Newquay to Penryn."
+        ],
+        "image": "images/VRHeadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2024 UK Cornwall Council",
+        "url": "https://www.cornwall.gov.uk/council-news/transport-streets-and-waste/more-transport-streets-and-waste-news-stories/residents-invited-for-a-bird-s-eye-view-of-how-mid-cornwall-metro-will-transform-transport-links-in-cornwall/"
+    },
+    {
+        "title": "ExploreStation",
+        "description": [
+            "An engagement led by the Design Council and delivered in partnership with a number of organisations for Network Rail, looking at transport hubs of the future. It used VR as one way to engage with people",
+            "Participants sat in railway-style seats wearing VR goggles, where they experienced a virtual train journey. The train carriage and platform were constructed around them, with seat vibrations and sounds simulating a real ride. Along the way, a voiceover and text boxes explained the Network Rail and HUB Station proposals "
+        ],
+        "image": "images/VRHeadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2022 UK",
+        "url": "https://www.explorestation.co.uk/"
+    },
+    {
+        "title": "AR to drive community engagement",
+        "description": [
+            "DignityMoves, a California nonprofit focused on ending unsheltered homelessness, uses augmented reality to engage community stakeholders in the design process for interim supportive housing projects. By collaborating with Google’s Geospatial Creator and Gensler’s housing models, they provide full-scale visualizations to help communities understand project impact, streamline the design process, and ensure equitable housing solutions."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a mobile phone used to view AR",
+        "category": "AR Public engagement 2023 U.S. DignityMoves",
+        "url": "https://www.gensler.com/blog/how-augmented-reality-can-drive-more-engaged-communities"
+    },
+    {
+        "title": "A brigher future project",
+        "description": [
+            "Folkestone: A Brighter Future Project used virtual reality to engage the community in planning proposals for the town centre’s transformation. As part of the public engagement, residents could experience detailed designs for phase one, including updates to Station Approach, Cheriton Road, and Shellons Street, through an immersive VR tour. This technology allowed the community to explore and provide feedback on the proposed changes before they are finalized, ensuring local input shapes the future of the town centre."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2024 U.K. Folkestone & Hythe District Council",
+        "url": "https://www.folkestone-hythe.gov.uk/news/article/227/experience-the-future-of-folkestone"
+    },
+    {
+        "title": "A VR Experience for Town Centre Planning",
+        "description": [
+            "As part of the Farnham Infrastructure Programme's public consultation, residents were invited to explore the future of their town centre through an virtual reality experience. Held at various locations across Farnham, the immersive experience allowed participants to fly around the proposed town centre in a VR jet pack. The VR tour showcased potential changes, including widened pavements, improved pedestrian and cycling facilities, and enhancements to Castle Street, Downing Street, and The Borough",
+            "This engagement approach aimed to gather feedback from the community in a fun, interactive way while ensuring residents had a say in shaping Farnham's future. Funded by the Department of Levelling Up, Housing and Communities, the project was a collaboration between Surrey County Council, Waverley Borough Council, Farnham Town Council, and Digital Urban.Place. Participants who preferred to stay grounded could explore the plans using a joystick, offering an accessible way for all to engage with the proposals."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2022 U.K. Surrey County Council",
+        "url": "https://www.folkestone-hythe.gov.uk/news/article/227/experience-the-future-of-folkestone"
+    }
+]

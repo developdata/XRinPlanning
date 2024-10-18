@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR and VR Examples Showcase</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/examples.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body lang="en">
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="examples.html">Examples</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>AR and VR Use Cases</h1>
+        <p>Explore different examples of AR and VR applications!</p>
+        <div class="filter-controls">
+            <button class="filter-btn" data-filter="AR" aria-pressed="false">AR</button>
+            <button class="filter-btn" data-filter="VR" aria-pressed="false">VR</button>
+            <button class="clear-filters" onclick="clearFilters()">Clear Filters</button>
+        </div>
+    </header>
+    <div class="columns"></div>
+
+    <div id="modal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="modal-title" aria-describedby="modal-body">
+        <div class="modal-content">
+            <button class="close-button" onclick="closeModal()" aria-label="Close modal">Close</button>
+            <h3 id="modal-title"></h3>
+            <h4 id="model-category"></h4>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script>
+        // Fetch JSON data and create boxes dynamically
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('data/data.json')
+                .then(response => response.json())
+                .then(data => {
+                    const columnsContainer = document.querySelector('.columns');
+                    columnsContainer.innerHTML = ''; // Clear initial content
+
+                    data.forEach(item => {
+                        const box = document.createElement('div');
+                        box.className = 'box';
+                        box.setAttribute('data-category', item.category);
+
+                        const img = document.createElement('img');
+                        img.src = item.image;
+                        img.alt = item.alt ? item.alt : item.title;
+
+                        const content = document.createElement('div');
+                        content.className = 'content';
+
+                        const title = document.createElement('h3');
+                        title.textContent = item.title;
+
+                        const category = document.createElement('h4');
+                        category.textContent = item.category;
+
+                        const truncateDiv = document.createElement('div');
+                        truncateDiv.className = 'truncate';
+                        truncateDiv.setAttribute('aria-expanded', 'false');
+
+                        // Add description paragraphs
+                        item.description.forEach(desc => {
+                            const p = document.createElement('p');
+                            p.textContent = desc;
+                            truncateDiv.appendChild(p);
+                        });
+
+                        // Add URL if available
+                        if (item.url) {
+                            const link = document.createElement('a');
+                            link.href = item.url;
+                            link.textContent = 'Learn more';
+                            link.target = '_blank';
+                            link.className = 'learn-more-link';
+                            truncateDiv.appendChild(link);
+                        }
+
+                        const readMoreButton = document.createElement('button');
+                        readMoreButton.className = 'read-more';
+                        readMoreButton.textContent = 'Read more';
+                        readMoreButton.setAttribute('aria-expanded', 'false');
+                        readMoreButton.onclick = () => openModal(readMoreButton);
+
+                        content.appendChild(title);
+                        content.appendChild(category);
+                        content.appendChild(truncateDiv);
+                        content.appendChild(readMoreButton);
+                        box.appendChild(img);
+                        box.appendChild(content);
+                        columnsContainer.appendChild(box);
+                    });
+                })
+                .catch(error => console.error('Error loading JSON data:', error));
+        });
+
+        // Modal handling remains the same
+        function openModal(button) {
+            const content = button.parentElement;
+            const title = content.querySelector('h3').textContent;
+            const category = content.querySelector('h4').textContent;
+            const paragraphs = content.querySelectorAll('.truncate p');
+
+            let fullText = '';
+
+        // Add all paragraphs to modal content
+        paragraphs.forEach(p => {
+            fullText += `<p>${p.textContent}</p>`;
+        });
+
+        // Add URL if available
+        const link = content.querySelector('.learn-more-link');
+        if (link) {
+            fullText += `<p><a href="${link.href}" target="_blank" class="learn-more-link">${link.textContent}</a></p>`;
+        }
+            // paragraphs.forEach(p => {
+            //     fullText += `<p>${p.textContent}</p>`;
+            // });
+            const modalBody = document.getElementById('modal-body');
+
+            document.getElementById('modal-title').textContent = title;
+            document.getElementById('model-category').textContent = category;
+            modalBody.innerHTML = fullText;
+            const modal = document.getElementById('modal');
+            modal.style.display = 'flex';
+            modal.setAttribute('aria-hidden', 'false');
+            modal.focus();
+            document.body.style.overflow = 'hidden'; // Prevent background scroll
+
+            // Trap focus within the modal
+            const focusableElements = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+            const firstFocusableElement = focusableElements[0];
+            const lastFocusableElement = focusableElements[focusableElements.length - 1];
+
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Tab') {
+                    if (e.shiftKey) { // Shift + Tab
+                        if (document.activeElement === firstFocusableElement) {
+                            e.preventDefault();
+                            lastFocusableElement.focus();
+                        }
+                    } else { // Tab
+                        if (document.activeElement === lastFocusableElement) {
+                            e.preventDefault();
+                            firstFocusableElement.focus();
+                        }
+                    }
+                }
+                if (e.key === 'Escape') {
+                    closeModal();
+                }
+            });
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.style.display = 'none';
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = 'auto'; // Restore background scroll
+        }
+
+        // Filter logic remains the same
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const isPressed = button.getAttribute('aria-pressed') === 'true';
+                button.setAttribute('aria-pressed', !isPressed);
+                button.classList.toggle('active-filter', !isPressed);
+
+                const selectedFilters = Array.from(document.querySelectorAll('.filter-btn[aria-pressed="true"]'))
+                    .map(btn => btn.getAttribute('data-filter'));
+
+                document.querySelectorAll('.box').forEach(box => {
+                    const categoryAttr = box.getAttribute('data-category');
+                    if (selectedFilters.length === 0) {
+                        // Show all boxes if no filters are selected
+                        box.style.display = 'block';
+                    } else if (categoryAttr) {
+                        const categories = categoryAttr.split(' ');
+                        // Show the box if it matches ANY of the selected filters
+                        const shouldShow = selectedFilters.some(filter => categories.includes(filter));
+                        box.style.display = shouldShow ? 'block' : 'none';
+                    }
+                });
+            });
+        });
+
+        function clearFilters() {
+            document.querySelectorAll('.filter-btn').forEach(button => {
+                button.setAttribute('aria-pressed', 'false');
+                button.classList.remove('active-filter');
+            });
+            document.querySelectorAll('.box').forEach(box => {
+                box.style.display = 'block';
+            });
+        }
+    </script>
+</body>
+</html>
