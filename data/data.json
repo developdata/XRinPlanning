@@ -82,5 +82,15 @@
         "alt": "an illustation of a VR device",
         "category": "VR Public engagement 2022 U.K. Surrey County Council",
         "url": "https://www.folkestone-hythe.gov.uk/news/article/227/experience-the-future-of-folkestone"
+    },
+    {
+        "title": "Cross River Rail Experience Centre",
+        "description": [
+            "A virtual reality theatre allowed people visiting the hub at the Queensland museum to explore the infrastructure project to help people get a better sense of the project and its scale."
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2019 Australia Cross River Rail & Queensland Museum",
+        "url": "https://crossriverrail.qld.gov.au/news/experience-cross-river-rail-in-3d-at-new-centre/"
     }
 ]
