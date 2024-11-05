@@ -92,5 +92,26 @@
         "alt": "an illustation of a VR device",
         "category": "VR Public engagement 2019 Australia Cross River Rail & Queensland Museum",
         "url": "https://crossriverrail.qld.gov.au/news/experience-cross-river-rail-in-3d-at-new-centre/"
+    },
+    {
+        "title": "VR for Street Re-zoning engagement",
+        "description": [
+            "In Orem, Utah, VR was used to engage local residents in a neighborhood rezoning project. Rezoning often faces local opposition or low engagement, but VR allowed people to see and experience the proposed change.",
+            "The experience helped with community engagement, making the process smoother. It received the 2019 Smart Cities Honor Award from the American Planning Association’s Technology Division."
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2019 USA MIG",
+        "url": "https://www.migcom.com/news/vr-community-engagment"
+    },
+    {
+        "title": "Multi-Sensory Virtual Reality in Participatory Planning",
+        "description": [
+            "A research project exploring the multisensory immersive experiences for engagement in planning"
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Research 2017 USA Rowan University Community Planning + Visualization Lab",
+        "url": "https://www.planviz.org/vr"
     }
 ]
