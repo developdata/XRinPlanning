@@ -1,14 +1,14 @@
 [
     {
-        "title": "Virtual Reality in Planning",
+        "title": "Newquay Futures",
         "description": [
-            "A student research project at Cal Poly that explored how VR could be used in the planning process. Working with the city of GilRoy they developed four plans for commerical spaces. The scenarios they developed could be compared on VR headsets.",
-            "They used a number of different software applications including SketchUp,  City Engine, ArcGIS, Spatial and vSpatial "
+            "A virtual bike ride around Newquay looking at possible future developments.",
+            "The council working with local organisations created the VR experience through PropTech government funding. People can take a virtual tour of the town inside a VR headset, and see proposed developments. They can then give comments."
         ],
         "image": "images/VRheadset.jpg",
         "alt": "an illustation of a VR device",
-        "category": "VR Research 2021 U.S. Calpoly",
-        "url": "https://planning.calpoly.edu/virtual-reality-planning"
+        "category": "VR Public engagement 2022 UK Newquay Futures",
+        "url": "https://www.bbc.co.uk/news/uk-england-cornwall-63708825"
     },
     {
         "title": "An augmented reality study for public participation in urban planning",
@@ -21,15 +21,15 @@
         "url": "https://www.tandfonline.com/doi/full/10.1080/17489725.2022.2086309"
     },
     {
-        "title": "Newquay Futures",
+        "title": "Virtual Reality in Planning",
         "description": [
-            "A virtual bike ride around Newquay looking at possible future developments.",
-            "The council working with local organisations created the VR experience through PropTech government funding. People can take a virtual tour of the town inside a VR headset, seeing proposed developments. They can then give comments"
+            "A student research project at Cal Poly that explored how VR could be used in the planning process. Working with the city of GilRoy they developed four plans for commercial spaces. The scenarios they developed could be compared on VR headsets.",
+            "They used a number of different software applications including SketchUp,  City Engine, ArcGIS, Spatial and vSpatial "
         ],
         "image": "images/VRheadset.jpg",
         "alt": "an illustation of a VR device",
-        "category": "VR Public engagement 2022 UK Newquay Futures",
-        "url": "https://www.bbc.co.uk/news/uk-england-cornwall-63708825"
+        "category": "VR Research 2021 U.S. Calpoly",
+        "url": "https://planning.calpoly.edu/virtual-reality-planning"
     },
     {
         "title": "Mid Cornwall Metro: Residents View Future Transport Links in VR",
@@ -63,9 +63,9 @@
         "url": "https://www.gensler.com/blog/how-augmented-reality-can-drive-more-engaged-communities"
     },
     {
-        "title": "A brigher future project",
+        "title": "A brighter future project",
         "description": [
-            "Folkestone: A Brighter Future Project used virtual reality to engage the community in planning proposals for the town centre’s transformation. As part of the public engagement, residents could experience detailed designs for phase one, including updates to Station Approach, Cheriton Road, and Shellons Street, through an immersive VR tour. This technology allowed the community to explore and provide feedback on the proposed changes before they are finalized, ensuring local input shapes the future of the town centre."
+            "Folkestone: A Brighter Future Project used virtual reality to engage the community in planning proposals for the town centre’s transformation. As part of the public engagement, residents could experience detailed designs for phase one, through an immersive VR tour; this included, updates to Station Approach, Cheriton Road, and Shellons Street. This technology allowed the community to explore and provide feedback on the proposed changes before they are finalised, ensuring local input shapes the future of the town centre."
         ],
         "image": "images/VRheadset.jpg",
         "alt": "an illustation of a VR device",
@@ -75,8 +75,8 @@
     {
         "title": "A VR Experience for Town Centre Planning",
         "description": [
-            "As part of the Farnham Infrastructure Programme's public consultation, residents were invited to explore the future of their town centre through an virtual reality experience. Held at various locations across Farnham, the immersive experience allowed participants to fly around the proposed town centre in a VR jet pack. The VR tour showcased potential changes, including widened pavements, improved pedestrian and cycling facilities, and enhancements to Castle Street, Downing Street, and The Borough",
-            "This engagement approach aimed to gather feedback from the community in a fun, interactive way while ensuring residents had a say in shaping Farnham's future. Funded by the Department of Levelling Up, Housing and Communities, the project was a collaboration between Surrey County Council, Waverley Borough Council, Farnham Town Council, and Digital Urban.Place. Participants who preferred to stay grounded could explore the plans using a joystick, offering an accessible way for all to engage with the proposals."
+            "As part of the Farnham Infrastructure Programme's public consultation, residents were invited to explore the future of their town centre through a virtual reality experience. Held at various locations across Farnham, the immersive experience allowed participants to fly around the proposed town centre in a VR jet pack. The VR tour showcased potential changes, including widened pavements, improved pedestrian and cycling facilities, and enhancements to Castle Street, Downing Street, and The Borough",
+            "This engagement approach aimed to gather feedback from the community in a fun, interactive way while ensuring residents had a say in shaping Farnham's future. Funded by the Department of Levelling Up, Housing and Communities, the project was a collaboration between Surrey County Council, Waverley Borough Council, Farnham Town Council, and Digital Urban Place. Participants who preferred to stay grounded could explore the plans using a joystick, offering an accessible way for all to engage with the proposals."
         ],
         "image": "images/VRheadset.jpg",
         "alt": "an illustation of a VR device",
@@ -86,7 +86,7 @@
     {
         "title": "Cross River Rail Experience Centre",
         "description": [
-            "A virtual reality theatre allowed people visiting the hub at the Queensland museum to explore the infrastructure project to help people get a better sense of the project and its scale."
+            "A virtual reality theatre allowed people visiting the hub at the Queensland Museum to explore the infrastructure project to help people get a better sense of the project and its scale."
         ],
         "image": "images/VRheadset.jpg",
         "alt": "an illustation of a VR device",
@@ -96,7 +96,7 @@
     {
         "title": "VR for Street Re-zoning engagement",
         "description": [
-            "In Orem, Utah, VR was used to engage local residents in a neighborhood rezoning project. Rezoning often faces local opposition or low engagement, but VR allowed people to see and experience the proposed change.",
+            "In Orem, Utah, VR was used to engage local residents in a neighbourhood rezoning project. Rezoning often faces local opposition or low engagement, but VR allowed people to see and experience the proposed change.",
             "The experience helped with community engagement, making the process smoother. It received the 2019 Smart Cities Honor Award from the American Planning Association’s Technology Division."
         ],
         "image": "images/VRheadset.jpg",
@@ -107,11 +107,21 @@
     {
         "title": "Multi-Sensory Virtual Reality in Participatory Planning",
         "description": [
-            "A research project exploring the multisensory immersive experiences for engagement in planning"
+            "A research project exploring the multisensory immersive experiences for engagement in planning."
         ],
         "image": "images/VRheadset.jpg",
         "alt": "an illustation of a VR device",
         "category": "VR Research 2017 USA Rowan University Community Planning + Visualization Lab",
         "url": "https://www.planviz.org/vr"
+    },
+    {
+        "title": "VR Mississippi River Bridge",
+        "description": [
+            "A  collaboration between the Iowa Department of Transportation, the ISU Virtual Reality Applications Center and the ISU Institute for Transportation that allowed people to view the bridge while it was under construction. "
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2018 USA Iowa Department of Transportation",
+        "url": "https://www.vrac.iastate.edu/news/virtual_reality_and_new_i-74_bridge/"
     }
 ]
