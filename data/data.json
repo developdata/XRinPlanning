@@ -11,6 +11,16 @@
         "url": "https://www.bbc.co.uk/news/uk-england-cornwall-63708825"
     },
     {
+        "title": "Stonehenge Heritage & Infrastructure: VR for Engagement",
+        "description": [
+            "VR was used to communicate and engage with the public on the proposed A303 Amesbury to Berwick Down Road Scheme, aimed at reducing traffic congestion around Stonehenge."
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2023 UK National Highways",
+        "url": "https://mxt.co.uk/case-studies/stonehenge/"
+    },
+    {
         "title": "An augmented reality study for public participation in urban planning",
         "description": [
             "Research that looks at how useful AR is for public particpation"
@@ -28,7 +38,7 @@
         ],
         "image": "images/VRheadset.jpg",
         "alt": "an illustation of a VR device",
-        "category": "VR Research 2021 U.S. Calpoly",
+        "category": "VR Research 2021 USA Calpoly",
         "url": "https://planning.calpoly.edu/virtual-reality-planning"
     },
     {
@@ -59,7 +69,7 @@
         ],
         "image": "images/AR.jpg",
         "alt": "an illustation of a mobile phone used to view AR",
-        "category": "AR Public engagement 2023 U.S. DignityMoves",
+        "category": "AR Public engagement 2023 USA DignityMoves",
         "url": "https://www.gensler.com/blog/how-augmented-reality-can-drive-more-engaged-communities"
     },
     {
@@ -123,5 +133,177 @@
         "alt": "an illustation of a VR device",
         "category": "VR Public engagement 2018 USA Iowa Department of Transportation",
         "url": "https://www.vrac.iastate.edu/news/virtual_reality_and_new_i-74_bridge/"
+    },
+    {
+        "title": "Exploring the Future of Philadelphia’s Urban Landscape Through VR",
+        "description": [
+            "This project used immersive virtual reality to spark dialogue about the future of Philadelphia’s urban landscape. By presenting three possible scenarios, it encouraged the community to reflect on urban green space, climate change, and sustainable design, fostering critical conversations about the challenges and opportunities in shaping a greener, healthier city."
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2017 USA Stantec",
+        "url": "https://www.stantec.com/en/ideas/topic/innovation-technology/seeing-the-future-harnessing-the-power-of-virtual-reality-for-community-engagement"
+    },
+    {
+        "title": "Engaging Youth with AR for Oslo’s Urban Future",
+        "description": [
+            "This project used Augmented Reality (AR) to involve youth in Oslo’s '100,000 New Trees' initiative. Young participants, aged 14–16, digitally placed trees and urban elements in their neighborhoods, using AR to visualize potential changes. Their designs were shared with the Municipality of Oslo to inform urban planning."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a AR device",
+        "category": "AR Research 2021 Norway Oslo School of Architecture and Design",
+        "url": "https://medium.com/digital-urban-living/augmented-reality-and-youth-groups-c5a61e3f72b4"
+    },
+    {
+        "title": "The effectiveness of Virtual Reality in Participatory Urban Planning",
+        "description": [
+            "A study explored the effectiveness of VR in participatory urban planning within a municipal process in the Netherlands. Citizens used VR to experience proposed urban developments, providing feedback that informed planning decisions."
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Research 2018 The Netherlands Municipality of The Hague & The Hague University of Applied Sciences",
+        "url": "https://dl.acm.org/doi/10.1145/3284389.3284491"
+    },
+    {
+        "title": "Digital Tools for Estate Regeneration",
+        "description": [
+            "Birmingham City Council collaborated with partners to create digital tools for the Druids Heath regeneration project. These included virtual and augmented reality and a 3D virtual model, allowing residents to visualise potential developments and share ideas. The tools supported conversations between the community and the council, helping shape a vision for the estate’s regeneration."
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2022 UK Birmingham City Council",
+        "url": "https://www.localdigital.gov.uk/case-studies/developing-a-suite-of-digital-tools-to-support-conversations-around-estate-regeneration/"
+    },
+    {
+        "title": "VR Experiences Reimagining New Brighton and Seacombe",
+        "description": [
+            "this project used VR to engage the community in reimagining the future of New Brighton and Seacombe. Based on ideas from local school sessions, two VR experiences were created: a virtual bus tour along New Brighton promenade and a pedalo ride along Seacombe’s waterfront.",
+            "The aim was to inspire ideas, gather feedback, and include voices often underrepresented in traditional consultations"
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2022 UK Wirral Council",
+        "url": "https://digitalurban.place/step-into-the-future-of-new-brighton-and-seacombe/"
+    },
+    {
+        "title": "Testing the Ways2gether App for Urban Planning Engagement",
+        "description": [
+            "The Ways2gether app was tested in two urban planning projects in Vienna: Wallensteinstrasse, a shopping street undergoing renewal, and Maria-Tusch-Strasse, a planned street in a new development area. The app used augmented reality (AR) on mobile devices to inform residents and gather feedback alongside traditional 2D and 3D visualizations. The field tests evaluated the app’s effectiveness in increasing understanding of street design plans and explored the pros and cons of AR versus traditional visualization methods."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a AR device",
+        "category": "AR Research 2014 Austria  University of Natural Resources and Life Sciences, Vienna",
+        "url": "https://openjournals.uwaterloo.ca/index.php/JoCI/article/view/3441/4517"
+    },
+    {
+        "title": "CityScope Andorra: Using AR for Public Engagement and Urban Planning",
+        "description": [
+            "CityScope Andorra, developed by MIT Media Lab, is an augmented reality (AR) platform that helps visualize complex urban data and supports public engagement in planning. By enabling communities to test scenarios—like adding parks, adjusting building heights, or planning mobility options—the platform fosters collaboration between citizens, urban planners, and policymakers. This innovative approach highlights how AR can enhance decision-making and create more inclusive urban development strategies."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a mobile phone used to view AR",
+        "category": "AR Public engagement 2017 Andorra MIT",
+        "url": "https://news.mit.edu/2017/european-nation-andorra-living-lab-media-lab-urban-innovation-1013"
+    },
+    {
+        "title": "Trafford Wharfside Masterplan: A digital first platform",
+        "description": [
+            "The digital platform created for The Wharfside Masterplan includes a number of ways that people can interact with the plan including 3D massing models that can be viewed in VR"
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2024 UK Trafford Council",
+        "url": "https://trafford.citizenspace.com/place/wharfside-masterplan-consultation/"
+    },
+    {
+        "title": "Using Virtual Reality to Involve Key Stakeholders in Hospital Design",
+        "description": [
+            "Stantec used Virtual Reality (VR) in the development of a hospital tower project to gather input from key stakeholders, such as night-shift nurses. By providing a VR link, the nurses could review the design on their own schedule and provide feedback without needing in-person meetings. This approach allowed the design team to make timely adjustments based on practical insights from those who would use the space daily."
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Stakeholder engagement 2024 USA Stantec",
+        "url": "https://workshopxr.autodesk.com/resources/stantec-finds-new-flow-xr/"
+    },
+    {
+        "title": "Engaging Communities in Climate Solutions Through AR",
+        "description": [
+            "The LAR app uses Augmented Reality to engage communities and professionals in conversations about climate adjustment and urban planning. It allows users to visualise drainage and climate solutions in real-world environments, fostering understanding and collaboration. With tools for live AR visualisation and post-processed scene editing, the app bridges communication gaps and makes climate planning more accessible and interactive for everyone."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a mobile phone used to view AR",
+        "category": "AR Public engagement 2020 Denmark Intertisement",
+        "url": "https://intertisement.com/lar-visualizing-climate-adjustment-solutions-and-urban-planning/"
+    },
+    {
+        "title": "AR Tool for Climate Change Planning and Community Engagement",
+        "description": [
+            "This AR tool was developed to support dialogue between municipalities, suppliers, and local communities during climate adaptation planning. It visualises sustainable drainage solutions, such as parks and rainwater systems, directly on location. Users can place models in AR, save scenes, and later edit them offline to incorporate community feedback. By facilitating collaboration, the tool helps ensure solutions meet local needs while addressing climate challenges."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a mobile phone used to view AR",
+        "category": "AR Public engagement 2018 Denmark Intertisement",
+        "url": "https://intertisement.com/ar-tool-for-climate-change-city-planning/"
+    },
+    {
+        "title": "Interactive AR Tool for Visualizing and Engaging with Architectural Designs",
+        "description": [
+            "This AR tool helps architects and communities visualize building concepts by placing 3D models in real-world environments without markers. Users can walk around and explore designs, including interiors, and adjust model size, orientation, and location. It supports collaborative decision-making by allowing users to capture images and videos to share ideas. This tool makes architectural concepts more accessible, fostering creative and engaging discussions between architects, stakeholders, and communities."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a mobile phone used to view AR",
+        "category": "AR Public engagement Denmark municipality of Copenhagen",
+        "url": "https://intertisement.com/interactive-ar-tool-for-city-planning/"
+    },
+    {
+        "title": "Using AR to Engage the Public in Urban Planning for Lucerne's Bahnhofstrasse",
+        "description": [
+            "The Lucerne University of Applied Sciences and Arts, in collaboration with the City of Lucerne, developed an AR visualization to engage the public in the redesign of Bahnhofstrasse and Theaterplatz. Using tablets, the tool allows users to view 3D models of proposed changes, such as new trees, bicycle stations, and seating."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a AR device",
+        "category": "AR Research 2021 Switzerland The Lucerne University of Applied Sciences and Arts",
+        "url": "https://www-hslu-ch.translate.goog/en/lucerne-university-of-applied-sciences-and-arts/about-us/media/medienmitteilungen/2021/08/19/ar-umgebung-bahnhofstrasse/?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc"
+    },
+    {
+        "title": "AR-Enhanced Community Engagement for Affordable Housing in The Bronx",
+        "description": [
+            "Radson Development and inCitu are using Augmented Reality to transform public engagement in urban planning for the Wakefield Yards project in The Bronx. By scanning QR codes at the development site, residents can visualise proposed affordable housing directly on their smartphones."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a mobile phone used to view AR",
+        "category": "AR Public engagement 2022 USA Radson Development",
+        "url": "https://www.incitu.us/post/wakefield-yards-envisioning-affordable-housing-in-the-bronx"
+    },
+    {
+        "title": "AR-Enhanced Community Engagement for Affordable Housing in The Bronx",
+        "description": [
+            "In collaboration with The Ralph Wilson Park Conservancy, inCitu used AR to engage inform and engage Buffalo residents in the planning of a new pedestrian bridge over I-190. Accessible via smartphone apps and social media, the AR experience allowed residents to visualize the bridge in their neighborhood"
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a mobile phone used to view AR",
+        "category": "AR Public engagement 2022 USA The Ralph Wilson Park Conservancy",
+        "url": "https://www.incitu.us/post/ralph-wilson-park-pedestrian-bridge"
+    },
+    {
+        "title": "Interactive Dome Workshops for Szczecin’s Waterfront Redevelopment",
+        "description": [
+            "The community were engaged in a city run competion to find an archtecture firm to redevelop Szczecin’s waterfront. The the city introduced an interactive dome experience called Hyperdome where the residents could take part in the design process. This immersive tool allowed residents to visualise future designs and participate in shaping their city’s architecture.",
+            "6000 people took part in this engagment generation 150 scene designs."
+        ],
+        "image": "images/VRheadset.jpg",
+        "alt": "an illustation of a VR device",
+        "category": "VR Public engagement 2022 Poland Szczecin",
+        "url": "https://pixellegend.com/citysphere/"
+    },
+    {
+        "title": "YARD: An AR Tool for Public Space Design",
+        "description": [
+            "YARD is an augmented reality tool developed by Arup to engage local communities in designing public space interventions. By allowing users to place virtual objects into real environments, YARD helps residents visualise changes, contribute their ideas, and co-create better public spaces. Originally developed as a proof of concept, YARD has since been adapted for use in vulnerable urban contexts, enabling meaningful participation in placemaking processes that are often challenging to access."
+        ],
+        "image": "images/AR.jpg",
+        "alt": "an illustation of a AR device",
+        "category": "AR Research 2020 Arup",
+        "url": "https://medium.com/arup-digital-news/make-it-real-with-yard-20238c3ae88f"
     }
 ]
