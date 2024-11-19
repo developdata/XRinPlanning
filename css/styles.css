@@ -70,6 +70,29 @@ section {
     border-radius: 10px;
 }
 
+.xr-explanation-section {
+    /* text-align: center; */
+    padding: 20px;
+}
+
+.xr-explanation-section .section-header-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto; /* Adds space below the image */
+    display: block;
+}
+
+h3 {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.75em;
+    margin-block-end: 0.75em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
 
 @media (min-width: 768px) {
     .content-wrapper {
